@@ -1,5 +1,10 @@
 package com.example.singletondemo;
 
+/***       put following in activity onCreate
+ *         int val =Singleton_demo.getInstance().get();
+ *         Log.d(TAG, "onCreate: val="+ val);
+ *         Singleton_demo.getInstance().inc();
+ */
 public class Singleton_demo {
 
     private static Singleton_demo INSTANCE = null;
