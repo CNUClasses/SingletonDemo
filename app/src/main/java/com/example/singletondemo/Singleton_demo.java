@@ -4,6 +4,13 @@ package com.example.singletondemo;
  *         int val =Singleton_demo.getInstance().get();
  *         Log.d(TAG, "onCreate: val="+ val);
  *         Singleton_demo.getInstance().inc();
+ *
+ *         BTW in Android, static variables unload when-
+ *              -You force stop your app.
+ *              -Application crashes.
+ *              -You clear your app data.
+ *              -Switch off your Device.
+ *              -Android kicked out recent app
  */
 public class Singleton_demo {
 
